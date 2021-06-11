@@ -345,11 +345,11 @@
 ///-------------------------------------------------
 
 
-let cars = ['audi', 'bmw', 'kia', 'saab'];
+// let cars = ['audi', 'bmw', 'kia', 'saab'];
 
-let arr = cars.splice(1, 3, 'lada' ,'mers', 'reno');
-console.log(cars);
-console.log(arr);
+// let arr = cars.splice(1, 3, 'lada' ,'mers', 'reno');
+// console.log(cars);
+// console.log(arr);
 
 
 
