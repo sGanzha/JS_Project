@@ -79,3 +79,27 @@
 // результат примера [3,3,4]
 
 // оптимизировать код
+
+// let arr1 = [1, 2, 3, 4, 5];
+// let arr2 = [1, 2, 3, 4, 5, 6];
+// let arr3 = [1, 2, 3, 4, 5, 6, 7];
+// let arr4 = [1, 2, 3, 4, 5, 6, 7, 8];
+
+
+// function foo() {
+// 	let mass = [];
+//     let center;
+// 	for (let i = 0; i < arguments.length; i++) {
+//         center=	Math.floor(arguments[i].length/2);
+//         if (arguments[i].length % 2 ==0){
+//             mass.push(arguments[i][center-1],arguments[i][center]);
+//         }else{
+// 		mass.push(arguments[i][center]);
+// 	}
+// }
+// 	return mass;
+// }
+
+// let x = foo(arr1,arr2,arr3,arr4);
+// console.log(x);
+

@@ -486,24 +486,24 @@ foo();
 
 
 
-let arr1 = [1, 2, 3, 4, 5];
-let arr2 = [1, 2, 5, 4, 5, 6];
+// let arr1 = [1, 2, 3, 4, 5];
+// let arr2 = [1, 2, 5, 4, 5, 6];
 
 
-function foo() {
-	let mass = [];
-	for (let i = 0; i < arguments.length; i++) {
-		let center = Math.floor(arguments[i].length/2);
-		mass.push(arguments[i][center]);
-		if(true) {
+// function foo() {
+// 	let mass = [];
+// 	for (let i = 0; i < arguments.length; i++) {
+// 		let center = Math.floor(arguments[i].length/2);
+// 		mass.push(arguments[i][center]);
+// 		if(true) {
 
-		}
-	}
-	return mass;
-}
+// 		}
+// 	}
+// 	return mass;
+// }
 
-let x = foo(arr1,arr2);
-console.log(x);
+// let x = foo(arr1,arr2);
+// console.log(x);
 
 
 
